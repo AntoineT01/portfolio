@@ -1,0 +1,34 @@
+{
+  "title": "Mon Portfolio",
+  "name": "John Doe",
+  "profession": "Développeur Web Full Stack",
+  "summary": "Passionné par le développement web avec 5 ans d'expérience dans la création d'applications modernes et performantes.",
+  "skills": [
+    "JavaScript (Vue.js, React, Node.js)",
+    "TypeScript",
+    "HTML5 & CSS3",
+    "Python",
+    "SQL & NoSQL databases"
+  ],
+  "experience": [
+    {
+      "title": "Développeur Senior",
+      "company": "TechCorp",
+      "period": "2020 - Présent",
+      "description": "Développement d'applications web avec Vue.js et Node.js."
+    },
+    {
+      "title": "Développeur Full Stack",
+      "company": "WebSolutions Inc.",
+      "period": "2018 - 2020",
+      "description": "Création de sites e-commerce avec React et Express.js."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master en Informatique",
+      "school": "Université de Technologie",
+      "year": "2018"
+    }
+  ]
+}
