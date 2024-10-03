@@ -1,9 +1,5 @@
 <template>
   <div>
-    <section class="bg-white shadow-md rounded-lg p-6 mb-8">
-      <h2 class="text-2xl font-semibold mb-4">Résumé</h2>
-      <p class="text-gray-700">{{ cv.summary }}</p>
-    </section>
 
     <section class="bg-white shadow-md rounded-lg p-6 mb-8">
       <h2 class="text-2xl font-semibold mb-4">Compétences</h2>
@@ -31,7 +27,9 @@
       <h2 class="text-2xl font-semibold mb-4">Formation</h2>
       <div v-for="edu in cv.education" :key="edu.degree" class="mb-4">
         <h3 class="text-xl font-semibold text-blue-600">{{ edu.degree }}</h3>
-        <p class="text-gray-700">{{ edu.school }}, {{ edu.year }}</p>
+        <p class="text-gray-600 italic">{{ edu.subject }}</p>
+
+        <p class="text-gray-700 mt-2">{{ edu.school }}, {{ edu.period }}</p>
       </div>
     </section>
   </div>
